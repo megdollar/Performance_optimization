@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home Page">
+    <meta name="author" content="Megan Dollar">
+    <title>Megan Dollar: Website Performance Optimization</title>
+
+    <link href="css/stylemin.css" rel="stylesheet">
+    <link href="css/printmin.css" rel="stylesheet" media="print">
+
+        <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"
+  media="none" onload="if(media!='all')media='all'"> 
+
+    <script>
+      (function(w,g){w['GoogleAnalyticsObject']=g;
+      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+
+      // Optional TODO: replace with your Google Analytics profile ID.
+      ga('create', 'UA-XXXX-Y');
+      ga('send', 'pageview');
+    </script>
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
+    <script async src="js/perfmattersmin.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="https://github.com/megdollar"><img src="img/megan.jpg" class="profile"></a>
+      <p>Megan Dollar<br><span>Web Developer</span></p>
+    </header>
+
+    <div class="container">
+      <div class="hero">
+        <strong>I love web development!</strong> Below you will find some of my working projects, along with a Pizza Website that I optimized as part of this project.<br> <a href="mailto:megdollar@gmail.com">Contact me</a>
+      </div>
+
+      <div class="content">
+        <ul>
+          <li>
+            <img style="width: 100px; height: 70px;" src="img/arcade.png">
+            <a href="Arcade_Game.html">Arcade Game</a>
+            <p>A twist on the classic arcade game: Frogger</p>
+          </li>
+
+          <li>
+            <img style="width: 100px; height: 70px;" src="img/portfolio.png">
+            <a href="Portfolio.html">Portfolio</a>
+            <p>A reponsive static page that features three of my projects.</p>
+          </li>
+
+          <li>
+            <img style="width: 100px; height: 70px;" src="img/resume.png">
+            <a href="Resume.html">Resume</a>
+            <p>A responsive resume to feature my education, work, and projects.</p>
+          </li>
+
+          <li>
+            <img style="width: 100px; height: 70px;" src="views/images/pizzeria.jpg">
+            <a href="views/pizza.html">Megan's Pizzeria</a>
+            <p>Who wants a performant pizza?</p>
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+      	<p>&copy; Web Performance 2016 <span id="crp-stats"></span></p>
+      </footer>
+
+    </div>
+  </body>
+</html>
